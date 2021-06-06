@@ -1,0 +1,2 @@
+rootProject.name = "Correo1"
+include ':app'

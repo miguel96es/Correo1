@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.DataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textCorreo1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo1" />
+
+        <TextView
+            android:id="@+id/textCorreo2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo2" />
+
+        <TextView
+            android:id="@+id/textCorreo3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo3" />
+
+        <TextView
+            android:id="@+id/textCorreo4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/correo4" />
+
+        <Button
+            android:id="@+id/botonCambiar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cambiar" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

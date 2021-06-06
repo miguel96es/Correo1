@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Correo1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="CORREOS">LISTA DE CORREOS</string>
+    <string name="textos">DETALLES DE CORREOS</string>
+    <string name="correo1">Universidad \n  Miguel Esquivel tienes notificaciones pendientes...</string>
+    <string name="correo2">Promociones \n  Miguel no te puedes perder la oportunidad...</string>
+    <string name="correo3">Banco Estado \n  Miguel Esquivel el pago ha sido realizado...</string>
+    <string name="correo4">Gmail \n  Miguel tienes notificaciones pendientes...</string>
+    <string name="cambiar">Cambiar fragmento</string>
+    <string name="exito">SEGUNDO FRAGMENTO</string>
+</resources>
