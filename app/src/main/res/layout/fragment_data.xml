@@ -28,12 +28,6 @@
             android:layout_height="wrap_content"
             android:text="@string/correo3" />
 
-        <TextView
-            android:id="@+id/textCorreo4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/correo4" />
-
         <Button
             android:id="@+id/botonCambiar"
             android:layout_width="match_parent"

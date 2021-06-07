@@ -10,4 +10,7 @@
     <string name="correo4">Gmail \n  Miguel tienes notificaciones pendientes...</string>
     <string name="cambiar">Cambiar fragmento</string>
     <string name="exito">SEGUNDO FRAGMENTO</string>
+    <string name="detallesTitulo">DETALLES</string>
+    <string name="detalles">Detalles de Correo:</string>
+    <string name="volver">Volver</string>
 </resources>

@@ -6,9 +6,10 @@ import androidx.fragment.app.FragmentManager;
 import android.os.Bundle;
 
 import com.example.correo1.Fragments.DataFragment;
+import com.example.correo1.Fragments.DetailsFragment;
 import com.example.correo1.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements DataFragment.DataListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +24,13 @@ public class MainActivity extends AppCompatActivity {
 
         //first fragment is added successfully
 
+    }
 
 
+
+    @Override
+    public void sendData(String text) {
+        DetailsFragment detailsFragment = (DetailsFragment) getSupportFragmentManager().findFragmentById(R.id.fragmentContainerViewDetails);
+        detailsFragment.renderText(text);
     }
 }
